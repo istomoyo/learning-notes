@@ -1,4 +1,4 @@
-# 马蜂窝
+# 1-马蜂窝
 
 [马蜂窝](https://www.mafengwo.cn/hotel/38322.html?iMddid=10206)
 评论接口
@@ -59,7 +59,7 @@ a095c2cdd170a50420ba510df028c426
 结果不会了，有JS 探针校验（probe.js）。
 ![alt text](./images/5.png)
 
-# 中国空气质量在线监测分析平台
+# 2-中国空气质量在线监测分析平台
 
 [中国空气质量在线监测分析平台](https://www.aqistudy.cn/)
 
@@ -96,7 +96,7 @@ return parse_(arg); // 不改变原来的执行逻辑
 
 ![alt text](./images/9.png)
 
-# 广东省公共资源交易平台
+# 3-广东省公共资源交易平台
 
 [广东省公共资源交易平台](https://ygp.gdzwfw.gov.cn/#/44/jygg)
 
@@ -110,7 +110,7 @@ D1直接进去，
 ![alt text](./images/11.png)
 qf直接扣，ef先看是不是标准算法，是sha256
 
-# 汕头招聘网*汕头人才网*求职找工作认准百城招聘【马头商标】
+# 4-汕头招聘网*汕头人才网*求职找工作认准百城招聘【马头商标】
 
 [汕头招聘网](https://st.bczp.cn/login/jwlogin.aspx)
 
@@ -120,10 +120,54 @@ https://st.bczp.cn/ajax/login/jwlogin.ashx?r=0.09294470188368542`
 直接搜account
 另外publicKey在html里
 
-# 企查查 - 查企业*查老板*查风险\_企业信息查询系统
+# 5-企查查 - 查企业*查老板*查风险\_企业信息查询系统
 
 [企查查](https://www.qcc.com/)
 商业快讯接口`
 https://www.qcc.com/api/home/getNewsFlash?firstRankIndex=&lastRankIndex=1769258487764&lastRankTime=1769258487764&pageSize=10`
 
 容易走神整错
+
+# 6-五百丁，个人简历，简历模板，个人简历模板
+
+[五百丁](https://www.500d.me/)
+登录接口`https://www.500d.me/login/submit/`
+扣代码太麻烦了，因为没有账号，最后好像还没整对
+
+# 7-登录—管家婆网店ERP
+
+[管家婆网店ERP](https://login.wsgjp.com.cn/)
+登录`https://passport.wsgjp.com.cn/erp/login`
+
+# 8-真气网
+
+[真气网](https://www.zq12369.com/environment.php?month=2023-12&tab=rank&order=DESC&type=MONTH)
+
+空气质量排名接口的参数加密和响应解密
+`https://www.zq12369.com/api/newzhenqiapi.php`
+
+# 9-赣州职业技术学院
+
+[赣州职业技术学院](https://gzpt.edu.cn:644/lyuapServer/login)
+登录接口的password`https://gzpt.edu.cn:644/lyuapServer/v1/tickets`
+
+## 启动器打断点
+
+都到异步栈了都没看到加密位置
+
+## 找到加密位置
+
+![alt text](./images/12.png)
+
+## 发现这几个方法是webpack
+
+这几个方法都在45里面，并且两个参数是写死的
+
+## 发现n是加载器
+
+加载器扣出来，调用45,把对应方法导出来替换。
+![alt text](./images/13.png)
+![alt text](./images/14.png)
+
+
+其实我现在还是不太会整这个webpack，不懂
