@@ -169,5 +169,28 @@ https://www.qcc.com/api/home/getNewsFlash?firstRankIndex=&lastRankIndex=17692584
 ![alt text](./images/13.png)
 ![alt text](./images/14.png)
 
-
 其实我现在还是不太会整这个webpack，不懂
+
+# 10-雷蛇登录
+
+[The Official Razer ID page for Razer account creation, product warranty registration, and sign-in purposes.](https://razerid.razer.com/)
+
+登录接口的password加密部分
+
+也没验证对不对，光看扣下来的代码结果位数一样？
+
+# 11-湖南师范大学继续教育学院
+
+[湖南师范大学继续教育学院](https://hunnucj.jxjy.chaoxing.com/login)
+
+搜关键字直接扣
+
+
+# 大风车
+[大风车](https://xindafengche.souche.com/#/login?action=accountLogin)
+
+ e,如果扣完发现不对(比如try,catch走了catch，小心调用方法的对象，别扣进去了)
+ ![alt text](./images/15.png)
+ ![alt text](./images/16.png)
+ ![alt text](./images/17.png)
+ 比如这个le
