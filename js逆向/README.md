@@ -185,12 +185,34 @@ https://www.qcc.com/api/home/getNewsFlash?firstRankIndex=&lastRankIndex=17692584
 
 搜关键字直接扣
 
+# 12-大风车
 
-# 大风车
 [大风车](https://xindafengche.souche.com/#/login?action=accountLogin)
 
- e,如果扣完发现不对(比如try,catch走了catch，小心调用方法的对象，别扣进去了)
- ![alt text](./images/15.png)
- ![alt text](./images/16.png)
- ![alt text](./images/17.png)
- 比如这个le
+e,如果扣完发现不对(比如try,catch走了catch，小心调用方法的对象，别扣进去了)
+![alt text](./images/15.png)
+![alt text](./images/16.png)
+![alt text](./images/17.png)
+比如这个le
+
+# 13-多多买菜
+
+[多多买菜](https://mdkd.pinduoduo.com/login)
+登录接口的password
+
+如果发现异步栈很难找，可以尝试尝试搜关键字excrypt之类的。
+
+# 14-拉勾网
+
+[拉勾网](https://www.lagou.com/wn/jobs)
+接口`https://www.lagou.com/jobs/v2/positionAjax.json`
+
+这个接口看起来挺好玩的，但是我现在不会滑块，留给以后做完。。。
+
+# 15 - 财联社
+
+[财联社](https://www.cls.cn/depth?id=1000)
+接口`
+ https://www.cls.cn/v3/depth/list/1000?app=CailianpressWeb&id=1000&last_time=1770380555&os=web&rn=20&sv=8.4.6&sign=99a466c9961f9fe902c129465993883b`
+ 第一次不一样，没有last_time参数。
+ url稍微一变就不行了，，，
