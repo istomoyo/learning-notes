@@ -214,6 +214,19 @@ e,如果扣完发现不对(比如try,catch走了catch，小心调用方法的对
 [财联社](https://www.cls.cn/depth?id=1000)
 接口`
  https://www.cls.cn/v3/depth/list/1000?app=CailianpressWeb&id=1000&last_time=1770380555&os=web&rn=20&sv=8.4.6&sign=99a466c9961f9fe902c129465993883b`
- 第一次不一样，没有last_time参数。
- url稍微一变就不行了，，，
- 返回数据应该是全的吧，没细看
+第一次不一样，没有last_time参数。
+url稍微一变就不行了，，，
+返回数据应该是全的吧，没细看
+
+# 16-中国电信天翼云
+
+[中国电信天翼云](https://www.ctyun.cn/h5/auth/login)
+登录的password。
+打包后的代码看不懂，cv给gpt，得到正确答案。webpack + des的ecb模式无iv。懒得扣直接模拟
+
+# 17-央视频
+
+[央视频](https://www.yangshipin.cn/tv/home)
+![alt text](images/18.png)
+![alt text](images/19.png)
+至少signature的算法是对的，:)
