@@ -230,3 +230,4 @@ url稍微一变就不行了，，，
 ![alt text](images/18.png)
 ![alt text](images/19.png)
 至少signature的算法是对的，:)
+c-key我补环境了，但是还不对。。。可能少什么东西了，位数不够
