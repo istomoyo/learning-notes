@@ -231,3 +231,7 @@ url稍微一变就不行了，，，
 ![alt text](images/19.png)
 至少signature的算法是对的，:)
 c-key我补环境了，但是还不对。。。可能少什么东西了，位数不够
+# 18-混沌书苑-用户登录
+[混沌书苑-用户登录](https://www.chaoslib.com/user/login/?next=/)
+
+登录接口的password，反调试用hook过，rsa加混淆。其中的时间戳参数是根据上面的服务器响应数据给的。
