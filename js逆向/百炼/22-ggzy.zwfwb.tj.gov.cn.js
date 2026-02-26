@@ -2,10 +2,8 @@
  * @Author: tomoyo
  * @Date: 2026-02-21 22:17:52
  * @Last Modified by: tomoyo
- * @Last Modified time: 2026-02-21 22:35:06
+ * @Last Modified time: 2026-02-23 23:04:51
  */
-
-const crypto = require("crypto");
 const fetchCookie = require("fetch-cookie").default;
 const { CookieJar } = require("tough-cookie");
 const jar = new CookieJar();

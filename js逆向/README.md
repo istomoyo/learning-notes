@@ -264,7 +264,16 @@ RSA,光看了位数一致
 [天津市公共资源交易平台](http://ggzy.zwfwb.tj.gov.cn/jyxx/index_2.jhtml)
 第一次遇到url加密的，挺有意思。我第一次看到a标签里面的url竟然没反应过来😂。而且一点混淆都没有，看着像正在干前端开发。这次是通过鼠标的click事件断住的.
 
-# 博声远程心电监测系统
+# 23-博声远程心电监测系统
 
 [博声远程心电监测系统](http://ecg.wecardio.com/wecardio/doctor/login)
 RSA,这次扣了下代码，我看RSA大都都是扣代码？
+
+# 24-教务管理
+
+[教务管理](http://jiaowu.cswu.cn/Logon.do?method=logon)
+我看加密的结果是对的啊？
+
+# 25-统一身份认证平台
+
+[统一身份认证平台-登录界面](https://auth.henetc.edu.cn/RZPT/login/login_toIndex)
