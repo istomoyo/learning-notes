@@ -277,3 +277,9 @@ RSA,这次扣了下代码，我看RSA大都都是扣代码？
 # 25-统一身份认证平台
 
 [统一身份认证平台-登录界面](https://auth.henetc.edu.cn/RZPT/login/login_toIndex)
+
+# 26-统一身份认证中心
+
+[统一身份认证中心](https://ai.cqvie.edu.cn/)
+也不知道对不对,也许是时候自己找个练练？
+<img src="./images/20.png">
