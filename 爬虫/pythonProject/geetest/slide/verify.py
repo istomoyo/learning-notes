@@ -5,8 +5,10 @@ import hashlib
 from datetime import datetime, timezone, timedelta
 import subprocess
 from functools import partial
-import  time
+from w_params import get_w_params
+import time
 import ddddocr
+import random
 subprocess. Popen = partial(subprocess.Popen, encoding='utf-8')
 
 lot_number, payload, process_token = load()
@@ -56,7 +58,7 @@ def w_params():
 
     return {
         "setLeft": setLeft,  # 距离ddddocr
-        "passtime": 207,  # 拖拽时间
+        "passtime": random.randint(200, 600),  # 拖拽时间
         "userresponse": setLeft / 1.0059466666666665 + 2,
         "device_id": "",
         "lot_number": lot_number,
@@ -114,8 +116,11 @@ def verify_w(w):
     print(response)
 
 def main():
-    ctx = execjs.compile(open("get_w.js",encoding="utf-8").read())
-    w = ctx.call("get_w",w_params())
+    # 补环境
+    # ctx = execjs.compile(open("get_w.js",encoding="utf-8").read())
+    # w = ctx.call("get_w",w_params())
+    # py纯算
+    w = get_w_params(w_params())
     verify_w(w)
 
 if __name__ == '__main__':
